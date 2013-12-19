@@ -6,8 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CB35A2FB184D03F200A116B7 /* GraphMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB35A2F9184D03F200A116B7 /* GraphMatch.cpp */; };
+		CB35A2FC184D03F200A116B7 /* GraphMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = CB35A2FA184D03F200A116B7 /* GraphMatch.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CB35A2F2184D03C600A116B7 /* libGraphMatch.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libGraphMatch.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB35A2F9184D03F200A116B7 /* GraphMatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphMatch.cpp; sourceTree = "<group>"; };
+		CB35A2FA184D03F200A116B7 /* GraphMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphMatch.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +31,8 @@
 		CB35A2E9184D03C600A116B7 = {
 			isa = PBXGroup;
 			children = (
+				CB35A2F9184D03F200A116B7 /* GraphMatch.cpp */,
+				CB35A2FA184D03F200A116B7 /* GraphMatch.h */,
 				CB35A2F3184D03C600A116B7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB35A2FC184D03F200A116B7 /* GraphMatch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +107,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB35A2FB184D03F200A116B7 /* GraphMatch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
